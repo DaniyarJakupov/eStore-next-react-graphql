@@ -1,6 +1,6 @@
 {
-  "name": "sick-fits-backend",
-  "description": "the backend of sick fits",
+  "name": "estore-backend",
+  "description": "backend for eStore",
   "scripts": {
     "start": "nodemon -e js,graphql -x node src/index.js",
     "debug": "nodemon -e js,graphql -x node --inspect src/index.js",
@@ -26,9 +26,6 @@
     "stripe": "^6.12.1"
   },
   "license": "MIT",
-  "repository": {
-    "url": "wesbos.com"
-  },
   "babel": {
     "presets": [
       "env"
