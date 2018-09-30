@@ -5,10 +5,12 @@ class MyApp extends App {
   state = {};
   render() {
     const { Component } = this.props;
+
     return (
       <Container>
-        <Page />
-        <Component />
+        <Page>
+          <Component />
+        </Page>
       </Container>
     );
   }
