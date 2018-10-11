@@ -1,8 +1,8 @@
-import Link from "next/link";
+import Items from "../components/Items";
 
 const Home = () => (
   <div>
-    <h1>Home page</h1>
+    <Items />
   </div>
 );
 
